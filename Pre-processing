@@ -1,0 +1,25 @@
+#!/usr/bin/bash
+
+
+# bash script for NGS data pre-processing and Variant Discovery
+
+# FastQC for quality control of raw sequences
+./fastqc ~/samples/sample1.fastq
+
+# Index human genome using bowtie2
+./bowtie2-build --u 10 indexes/references/reference.fq reference
+
+# Align paired-end reads using bowtie2 (-2 option may be removed for single-end sequences
+/bowtie2 -x reference_filename -1 path/filename1 -2 path/filename2 > filename.sam
+
+# Convert SAM files to BAM files
+~/samtools view -bS sample1.sam > sample1.bam
+
+# Sort the BAM file 
+~/samtools sort sample1.bam sample1.sorted
+
+# Index sorted BAM files to the reference genome
+~/samtools index sample1.sorted.bam
+
+# Pileup all samples
+~/samtools mpileup -E -uf reference.fa sample1.bam > sample1.mpileup
