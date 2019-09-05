@@ -13,7 +13,7 @@
 # Index human genome using bowtie2
 ./bowtie2-build --u 10 indexes/references/reference.fq reference
 
-# Align paired-end reads using bowtie2 (-2 option may be removed for single-end sequences
+# Align paired-end reads using bowtie2 (-2 option may be removed for single-end sequences)
 /bowtie2 -x reference_filename -1 path/filename1 -2 path/filename2 > filename.sam
 
 # Convert SAM files to BAM files
