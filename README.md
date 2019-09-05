@@ -17,5 +17,5 @@ The basic steps involved in this pipeline can be divided into three blocks [[sou
     * [Variant calling for germline variants and indels](https://github.com/srkoppolu/SK_WES_VariantCalling/wiki/Step-3:-Variant-Prioritization#variant-calling-for-germline-variants-and-indels)
     * [Filter variants to remove false positive indels and SNPs](https://github.com/srkoppolu/SK_WES_VariantCalling/wiki/Step-3:-Variant-Prioritization#filter-variants-to-remove-false-positive-indels-and-snps)
     * [Quality check for variants](https://github.com/srkoppolu/SK_WES_VariantCalling/wiki/Step-3:-Variant-Prioritization#quality-check-for-variants)
-    * [Annotation] (https://github.com/srkoppolu/SK_WES_VariantCalling/wiki/Step-3:-Variant-Prioritization#annotation)
+    * [Annotation](https://github.com/srkoppolu/SK_WES_VariantCalling/wiki/Step-3:-Variant-Prioritization#annotation)
     * [Filter candidates]()
