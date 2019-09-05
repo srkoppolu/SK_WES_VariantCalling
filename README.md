@@ -14,8 +14,8 @@ The basic steps involved in this pipeline can be divided into three blocks [[sou
     * [Index BAM files to remove unwanted alignment](https://github.com/srkoppolu/SK_WES_VariantCalling/wiki/Step-2:-Variant-Discovery#index-bam-files-to-remove-unwanted-alignment)
     * [Pileup BAM files for multiple samples](https://github.com/srkoppolu/SK_WES_VariantCalling/wiki/Step-2:-Variant-Discovery#pileup-bam-files-for-multiple-samples)
 3. **Variant Prioritization**
-    * Variant calling for germline variants and indels
-    * Filter variants to remove false positive indels and SNPs
-    * Quality check for variants
-    * Annotation
-    * Filter candidates
+    * [Variant calling for germline variants and indels](https://github.com/srkoppolu/SK_WES_VariantCalling/wiki/Step-3:-Variant-Prioritization#variant-calling-for-germline-variants-and-indels)
+    * [Filter variants to remove false positive indels and SNPs](https://github.com/srkoppolu/SK_WES_VariantCalling/wiki/Step-3:-Variant-Prioritization#filter-variants-to-remove-false-positive-indels-and-snps)
+    * [Quality check for variants](https://github.com/srkoppolu/SK_WES_VariantCalling/wiki/Step-3:-Variant-Prioritization#quality-check-for-variants)
+    * [Annotation] (https://github.com/srkoppolu/SK_WES_VariantCalling/wiki/Step-3:-Variant-Prioritization#annotation)
+    * [Filter candidates]()
